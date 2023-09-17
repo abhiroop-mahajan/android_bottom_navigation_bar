@@ -12,7 +12,10 @@
         android:theme="@style/Theme.FirstGithubProject"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".first_nav_bar.FirstNavBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mainactivity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
