@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.firstgithubproject.R
 import com.example.firstgithubproject.databinding.ActivityMainBinding
 import com.example.firstgithubproject.first_nav_bar.FirstNavBarActivity
+import com.example.firstgithubproject.second_nav_bar.SecondNavBarActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -24,13 +25,13 @@ class MainActivity : AppCompatActivity() {
     private fun setAdapter() {
         binding.rvItems.layoutManager =LinearLayoutManager(this)
         binding.rvItems.adapter = ItemsAdapter(dataList){position->
-            startActivity(Intent(this,FirstNavBarActivity::class.java))
+            startActivity(Intent(this,SecondNavBarActivity::class.java))
         }
     }
 
     private fun setList() {
         dataList.add(AdapterModel("First Navigation Bar", R.drawable.ic_nav_1))
-        dataList.add(AdapterModel("Second Navigation Bar", R.drawable.ic_nav_1))
+        dataList.add(AdapterModel("Second Navigation Bar", R.drawable.ic_nav_2))
         dataList.add(AdapterModel("Third Navigation Bar", R.drawable.ic_nav_1))
         dataList.add(AdapterModel("Fourth Navigation Bar", R.drawable.ic_nav_1))
         dataList.add(AdapterModel("Fifth Navigation Bar", R.drawable.ic_nav_1))

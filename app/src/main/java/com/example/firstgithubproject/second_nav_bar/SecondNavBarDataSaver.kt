@@ -1,8 +1,8 @@
-package com.example.firstgithubproject.first_nav_bar
+package com.example.firstgithubproject.second_nav_bar
 
 import androidx.lifecycle.ViewModel
 
-class FirstNavBarDataSaver:ViewModel() {
+class SecondNavBarDataSaver: ViewModel() {
     private var activeTab = 1
 
     fun updateTab(tab:Int){
