@@ -1,4 +1,4 @@
-package com.example.firstgithubproject.first_nav_bar
+package com.example.firstgithubproject.nav_bar_directory.first_nav_bar
 
 import android.content.Context
 import androidx.appcompat.content.res.AppCompatResources

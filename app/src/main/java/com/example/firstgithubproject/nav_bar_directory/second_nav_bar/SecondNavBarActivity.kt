@@ -1,9 +1,8 @@
-package com.example.firstgithubproject.second_nav_bar
+package com.example.firstgithubproject.nav_bar_directory.second_nav_bar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
-import com.example.firstgithubproject.R
 import com.example.firstgithubproject.databinding.ActivitySecondNavBarBinding
 
 class SecondNavBarActivity : AppCompatActivity(), SecondNavigationManager.DataSaver {

@@ -3,13 +3,10 @@ package com.example.firstgithubproject.mainactivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.firstgithubproject.R
 import com.example.firstgithubproject.databinding.ActivityMainBinding
-import com.example.firstgithubproject.first_nav_bar.FirstNavBarActivity
-import com.example.firstgithubproject.second_nav_bar.SecondNavBarActivity
+import com.example.firstgithubproject.nav_bar_directory.second_nav_bar.SecondNavBarActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -25,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     private fun setAdapter() {
         binding.rvItems.layoutManager =LinearLayoutManager(this)
         binding.rvItems.adapter = ItemsAdapter(dataList){position->
-            startActivity(Intent(this,SecondNavBarActivity::class.java))
+            startActivity(Intent(this, SecondNavBarActivity::class.java))
         }
     }
 

@@ -1,4 +1,4 @@
-package com.example.firstgithubproject.first_nav_bar
+package com.example.firstgithubproject.nav_bar_directory.first_nav_bar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,9 +7,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.firstgithubproject.R
 import com.example.firstgithubproject.databinding.ActivityFirstNavBarBinding
 
-class FirstNavBarActivity : AppCompatActivity() ,FirstNavigationManager.DataSaver{
+class FirstNavBarActivity : AppCompatActivity() , FirstNavigationManager.DataSaver {
     private lateinit var binding: ActivityFirstNavBarBinding
-    private lateinit var navManager:FirstNavigationManager
+    private lateinit var navManager: FirstNavigationManager
     private lateinit var dataSaver: FirstNavBarDataSaver
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

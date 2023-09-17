@@ -1,4 +1,4 @@
-package com.example.firstgithubproject.second_nav_bar
+package com.example.firstgithubproject.nav_bar_directory.second_nav_bar
 
 import android.content.Context
 import android.view.View
@@ -44,7 +44,7 @@ class SecondNavigationManager(
         initialize()
     }
 
-    
+
     private fun initUnselectedTabDrawables() {
         unselectedTabDrawables.add(R.drawable.ic_unselected_home)
         unselectedTabDrawables.add(R.drawable.ic_unselected_search)

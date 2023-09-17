@@ -1,4 +1,4 @@
-package com.example.firstgithubproject.second_nav_bar
+package com.example.firstgithubproject.nav_bar_directory.second_nav_bar
 
 import androidx.lifecycle.ViewModel
 

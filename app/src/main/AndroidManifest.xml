@@ -12,10 +12,10 @@
         android:theme="@style/Theme.FirstGithubProject"
         tools:targetApi="31">
         <activity
-            android:name=".second_nav_bar.SecondNavBarActivity"
+            android:name=".nav_bar_directory.second_nav_bar.SecondNavBarActivity"
             android:exported="false" />
         <activity
-            android:name=".first_nav_bar.FirstNavBarActivity"
+            android:name=".nav_bar_directory.first_nav_bar.FirstNavBarActivity"
             android:exported="false" />
         <activity
             android:name=".mainactivity.MainActivity"
