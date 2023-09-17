@@ -1,9 +1,8 @@
-package com.example.firstgithubproject.mainactivity
+package com.example.firstgithubproject.main_activity
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.firstgithubproject.databinding.ActivityMainBinding
 import com.example.firstgithubproject.databinding.ItemNavBarBinding
 
 class ItemsAdapter (private val items:ArrayList<AdapterModel>, val callback:(Int)->Unit):RecyclerView.Adapter<ItemViewHolder>(){
