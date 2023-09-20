@@ -18,12 +18,10 @@ class ItemsAdapter (private val items:ArrayList<AdapterModel>, val callback:(Int
         holder.binding.apply {
             tvBar.text = items[position].title
             ivImage.setImageResource(items[position].image)
-            cvItem.setOnClickListener {
+            btnNavigate.setOnClickListener {
                 callback(position)
             }
         }
     }
 }
-class ItemViewHolder(val binding: ItemNavBarBinding):RecyclerView.ViewHolder(binding.root){
-
-}
+class ItemViewHolder(val binding: ItemNavBarBinding):RecyclerView.ViewHolder(binding.root){}
