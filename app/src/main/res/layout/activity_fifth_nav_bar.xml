@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".nav_bar_directory.fourth_nav_bar.FourthNavBarActivity">
+    tools:context=".nav_bar_directory.fifth_nav_bar.FifthNavBarActivity">
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
@@ -15,5 +15,5 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        layout="@layout/item_fourth_nav_bar"/>
+        layout="@layout/item_fifth_nav_bar"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

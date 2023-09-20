@@ -13,7 +13,7 @@
         tools:layout="@layout/fragment_first"/>
     <include android:id="@+id/navBar"
         android:layout_width="match_parent"
-        android:layout_height="65dp"
+        android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         layout="@layout/item_second_nav_bar"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
