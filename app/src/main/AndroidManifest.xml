@@ -12,6 +12,9 @@
         android:theme="@style/Theme.FirstGithubProject"
         tools:targetApi="31">
         <activity
+            android:name=".nav_bar_directory.sixth_nav_bar.SixthNavBarActivity"
+            android:exported="false" />
+        <activity
             android:name=".nav_bar_directory.fifth_nav_bar.FifthNavBarActivity"
             android:exported="false" />
         <activity

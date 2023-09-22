@@ -10,6 +10,7 @@ import com.example.firstgithubproject.nav_bar_directory.fifth_nav_bar.FifthNavBa
 import com.example.firstgithubproject.nav_bar_directory.first_nav_bar.FirstNavBarActivity
 import com.example.firstgithubproject.nav_bar_directory.fourth_nav_bar.FourthNavBarActivity
 import com.example.firstgithubproject.nav_bar_directory.second_nav_bar.SecondNavBarActivity
+import com.example.firstgithubproject.nav_bar_directory.sixth_nav_bar.SixthNavBarActivity
 import com.example.firstgithubproject.nav_bar_directory.third_nav_bar.ThirdNavBarActivity
 
 class MainActivity : AppCompatActivity() {
@@ -41,8 +42,8 @@ class MainActivity : AppCompatActivity() {
             if(position==4)
                 startActivity(Intent(this, FifthNavBarActivity::class.java))
 
-            if(position>4)
-                startActivity(Intent(this, FirstNavBarActivity::class.java))
+            if(position==5)
+                startActivity(Intent(this, SixthNavBarActivity::class.java))
 
         }
     }
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         dataList.add(AdapterModel("Third Navigation Bar", R.drawable.ic_nav_3))
         dataList.add(AdapterModel("Fourth Navigation Bar", R.drawable.ic_nav_4))
         dataList.add(AdapterModel("Fifth Navigation Bar", R.drawable.ic_nav_5))
-        dataList.add(AdapterModel("Sixth Navigation Bar", R.drawable.ic_nav_1))
+        dataList.add(AdapterModel("Sixth Navigation Bar", R.drawable.ic_nav_6))
         dataList.add(AdapterModel("Seventh Navigation Bar", R.drawable.ic_nav_1))
         dataList.add(AdapterModel("Eighth Navigation Bar", R.drawable.ic_nav_1))
         dataList.add(AdapterModel("Ninth Navigation Bar", R.drawable.ic_nav_1))
